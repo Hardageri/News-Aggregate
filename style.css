@@ -144,6 +144,13 @@ h1 {
   color: #fff;
 }
 
+h2{
+  color: #fff;
+  width: 90%;
+  font-weight: 100;
+  text-align:justify ;
+}
+
 a button {
   appearance: none;
   background-color: #FFFFFF;
