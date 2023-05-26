@@ -1,0 +1,27 @@
+// function displaySearchResults(results) {
+//     const searchResults = document.getElementById('search-results');
+//     searchResults.innerHTML = '';
+
+//     results.value.forEach(result => {
+//         const title = result.name;
+//         const description = result.description;
+//         const url = result.url;
+//         const imageUrl = result.image?.thumbnail?.contentUrl;
+
+//         const resultDiv = document.createElement('div');
+//         resultDiv.classList.add('result');
+//         resultDiv.innerHTML = `
+//                 <div class="image-container">
+//                     <img src="${imageUrl}" alt="${title}">
+//                 </div>
+//               <div class="details-container">
+//               <a href="${url}" target="_blank">
+//                     <h2>${title}</h2>
+//                      </a>
+//                     <p>${description}</p>
+//                 </div>
+//         `;
+
+//         searchResults.appendChild(resultDiv);
+//     });
+// }
